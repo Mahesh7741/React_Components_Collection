@@ -1,6 +1,9 @@
 
 import './App.css';
-import UpdateList from './Components/UpdateList';
+import ReadMoreData from './Components/ReadMoreData';
+// import TicketBooking from './Components/TicketBooking';
+// import QuizFrom from './Components/QuizFrom';
+// import UpdateList from './Components/UpdateList';
 // import ReverseData from './Components/ReverseData';
 // import InsertItems from './Components/InsertItems';
 // import ThreeNumberCount from './Components/ThreeNumberCount';
@@ -44,7 +47,10 @@ function App() {
       {/* <InsertItems>Insert</InsertItems> */}
 
       {/* <ReverseData>Reverse</ReverseData> */}
-      <UpdateList></UpdateList>
+      {/* <UpdateList></UpdateList> */}
+      {/* <QuizFrom></QuizFrom> */}
+      {/* <TicketBooking></TicketBooking> */}
+      <ReadMoreData></ReadMoreData>
     </div>
   );
 }
