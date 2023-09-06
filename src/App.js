@@ -1,5 +1,9 @@
 
 import './App.css';
+import UpdateList from './Components/UpdateList';
+// import ReverseData from './Components/ReverseData';
+// import InsertItems from './Components/InsertItems';
+// import ThreeNumberCount from './Components/ThreeNumberCount';
 // import ShapeMoving from './Components/ShapeMoving';
 // import DeletingData from './Components/DeletingData';
 // import AddData from './Components/AddData';
@@ -35,6 +39,12 @@ function App() {
       {/* <DeletingData></DeletingData> */}
 
       {/* <ShapeMoving></ShapeMoving> */}
+
+      {/* <ThreeNumberCount></ThreeNumberCount> */}
+      {/* <InsertItems>Insert</InsertItems> */}
+
+      {/* <ReverseData>Reverse</ReverseData> */}
+      <UpdateList></UpdateList>
     </div>
   );
 }
