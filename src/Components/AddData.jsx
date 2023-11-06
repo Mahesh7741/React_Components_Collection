@@ -3,6 +3,7 @@ import { useState } from "react";
 let nextId = 0;
 
 function AddData({ childern }) {
+  //Tejas Savant
   // function handleAdd(e) {
   //   e.stopPropagation();
   //   setName(e.target.value);
@@ -27,7 +28,7 @@ function AddData({ childern }) {
           <li key={artist.id}>{artist.name}</li>
         ))}
       </ol>
-    </>
+    </> 
   );
 }
 

@@ -1,12 +1,7 @@
 import { useState } from 'react';
 import initialArtists from '../Data/initialArtists'
-
-
-
-
 function ReverseData({children}) {
-
-    const [artists,setArtists]=useState(initialArtists)
+  const [artists,setArtists]=useState(initialArtists)
   function handleClick() {
     const nextList=[...artists]
     nextList.reverse();
