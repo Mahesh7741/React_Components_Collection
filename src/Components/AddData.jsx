@@ -3,7 +3,6 @@ import { useState } from "react";
 let nextId = 0;
 
 function AddData({ childern }) {
-  //Tejas Savant
   // function handleAdd(e) {
   //   e.stopPropagation();
   //   setName(e.target.value);
